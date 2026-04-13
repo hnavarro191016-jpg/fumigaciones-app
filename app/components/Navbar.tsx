@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar"
 
 export const metadata = {
   title: "Sistema de Fumigaciones",
-  description: "Sistema profesional"
+  description: "Sistema profesional de cotizaciones"
 }
 
 export default function RootLayout({
@@ -14,11 +14,9 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className="bg-black text-white">
-
-        {/* 🔥 MENÚ GLOBAL */}
+        
         <Navbar />
 
-        {/* 🔥 CONTENIDO */}
         <main className="p-6">
           {children}
         </main>
